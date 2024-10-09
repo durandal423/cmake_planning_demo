@@ -6,7 +6,7 @@ using std::cout, std::endl;
 
 void Process::planProcess() {
     cout << "this is planning process" << endl;
-    my_map.mapInfo();
+    my_map.map_info();
 
     MatrixXd m(2, 2);
     m(0, 0) = 3;
